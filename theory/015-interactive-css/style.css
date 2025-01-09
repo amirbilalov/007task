@@ -21,6 +21,8 @@ main {
     align-items: center;
     background-color: #f0f0f0;
     font-size: 20px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 main div {
@@ -29,9 +31,9 @@ main div {
     border: 1px solid #ddd;
     border-radius: 8px;
     background-color: #f9f9f9;
-    margin: auto;
     max-width: 600px;
-    align-self: center;
+    width: 100%;
+
 }
 
 input {
@@ -41,11 +43,9 @@ input {
     box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 4px;
-    resize: none;
 }
 
 label {
-    /* display: block; */
     margin: 10px;
 }
 
@@ -54,9 +54,8 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px;
-    position: fixed;
     width: 100%;
-    bottom: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -80,4 +79,10 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.result {
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
